@@ -1,0 +1,23 @@
+[
+    {
+        "state": "California",
+        "country": "USA",
+        "city": "Los Angeles",
+        "postal_code": "90001",
+        "street": "123 Fictional Rd"
+    },
+    {
+        "state": "New York",
+        "country": "USA",
+        "city": "New York",
+        "postal_code": "10001",
+        "street": "456 Imaginary St"
+    },
+    {
+        "state": "Texas",
+        "country": "USA",
+        "city": "Houston",
+        "postal_code": "77001",
+        "street": "789 Nonexistent Ave"
+    }
+]

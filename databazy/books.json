@@ -1,0 +1,194 @@
+[
+    {
+        "book_ID": {
+            "$oid": "60d5ecf4f4d3a07e58c31a28"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Science Fiction",
+            "description": "A genre that explores futuristic concepts and advanced technology."
+        },
+        "publisher": {
+            "id": 101,
+            "name": "Penguin Random House",
+            "founder": "Allen Lane",
+            "website": "https://www.penguinrandomhouse.com",
+            "address_id": 1001
+        },
+        "language": [
+            {
+                "id": 1,
+                "language_name": "English"
+            }
+        ],
+        "bookEvent": [
+            {
+                "id": 1,
+                "name": "Book Launch",
+                "date": {
+                    "$date": "2021-06-24T00:00:00Z"
+                },
+                "description": "Launch event for the new book."
+            }
+        ],
+        "series": {
+            "id": 1,
+            "name": "Space Odyssey",
+            "description": "A series exploring space travel and its challenges."
+        },
+        "name": "Journey to the Stars",
+        "year": 2021,
+        "ISBN": "978-3-16-148410-0",
+        "page_count": 350,
+        "format": "Hardcover",
+        "edition": "First",
+        "publication_date": {
+            "$date": "2021-07-01T00:00:00Z"
+        },
+        "wieght": 1.2,
+        "author": {
+            "id": 201,
+            "first_name": "Arthur",
+            "last_name": "Clarke",
+            "nationality": "British",
+            "biography": "Arthur Clarke was a renowned science fiction writer.",
+            "website": "https://www.arthurclarke.com",
+            "birth_date": {
+                "$date": "1917-12-16T00:00:00Z"
+            }
+        },
+        "reviews": [
+            {
+                "id": 301,
+                "rating": 4.5,
+                "text": "An amazing read!",
+                "date": {
+                    "$date": "2021-07-15T00:00:00Z"
+                },
+                "user_id": 401
+            },
+            {
+                "id": 302,
+                "rating": 4.0,
+                "text": "Very engaging and thought-provoking.",
+                "date": {
+                    "$date": "2021-08-01T00:00:00Z"
+                },
+                "user_id": 402
+            },
+            {
+                "id": 303,
+                "rating": 5.0,
+                "text": "A masterpiece of science fiction literature.",
+                "date": {
+                    "$date": "2021-09-10T00:00:00Z"
+                },
+                "user_id": 403
+            }
+        ],
+        "awards": [
+            {
+                "id": 501,
+                "name": "Hugo Award",
+                "year": 2022,
+                "organization": "World Science Fiction Society"
+            }
+        ]
+    },
+    {
+        "book_ID": {
+            "$oid": "60d5ed1cf4d3a07e58c31a29"
+        },
+        "genre": {
+            "id": 2,
+            "name": "Fantasy",
+            "description": "A genre that includes magical elements and mythical creatures."
+        },
+        "publisher": {
+            "id": 102,
+            "name": "HarperCollins",
+            "founder": "James Harper",
+            "website": "https://www.harpercollins.com",
+            "address_id": 1002
+        },
+        "language": [
+            {
+                "id": 2,
+                "language_name": "Spanish"
+            }
+        ],
+        "bookEvent": [
+            {
+                "id": 2,
+                "name": "Author Meetup",
+                "date": {
+                    "$date": "2022-01-15T00:00:00Z"
+                },
+                "description": "Meetup event with the author."
+            }
+        ],
+        "series": {
+            "id": 2,
+            "name": "Mystic Tales",
+            "description": "A series filled with magical adventures and mythical creatures."
+        },
+        "name": "The Enchanted Forest",
+        "year": 2022,
+        "ISBN": "978-0-06-256436-8",
+        "page_count": 420,
+        "format": "Paperback",
+        "edition": "Second",
+        "publication_date": {
+            "$date": "2022-02-01T00:00:00Z"
+        },
+        "wieght": 0.8,
+        "author": {
+            "id": 202,
+            "first_name": "J.K.",
+            "last_name": "Rowling",
+            "nationality": "British",
+            "biography": "J.K. Rowling is the author of the Harry Potter series.",
+            "website": "https://www.jkrowling.com",
+            "birth_date": {
+                "$date": "1965-07-31T00:00:00Z"
+            }
+        },
+        "reviews": [
+            {
+                "id": 304,
+                "rating": 4.7,
+                "text": "A magical journey!",
+                "date": {
+                    "$date": "2022-03-10T00:00:00Z"
+                },
+                "user_id": 404
+            },
+            {
+                "id": 305,
+                "rating": 4.8,
+                "text": "Enchanting and captivating!",
+                "date": {
+                    "$date": "2022-04-05T00:00:00Z"
+                },
+                "user_id": 405
+            },
+            {
+                "id": 306,
+                "rating": 4.9,
+                "text": "A must-read for fantasy lovers.",
+                "date": {
+                    "$date": "2022-05-12T00:00:00Z"
+                },
+                "user_id": 406
+            }
+        ],
+        "awards": [
+            {
+                "id": 502,
+                "name": "Nebula Award",
+                "year": 2023,
+                "organization": "Science Fiction and Fantasy Writers of America"
+            }
+        ]
+    }
+]
