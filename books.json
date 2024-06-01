@@ -1,0 +1,299 @@
+[
+    {
+        "book_ID": "507f191e810c19729de860ea",
+        "genre": [
+            {
+                "id": 1,
+                "name": "Fiction",
+                "description": "Fictional books"
+            }
+        ],
+        "publisher": {
+            "id": 1,
+            "name": "Penguin Random House",
+            "founder": "Markus Dohle",
+            "website": "http://penguinrandomhouse.com",
+            "address": [
+                {
+                    "id": 1,
+                    "state": "New York",
+                    "country": "USA",
+                    "city": "New York",
+                    "postal_code": "10019",
+                    "street": "1745 Broadway"
+                }
+            ]
+        },
+        "language": [
+            {
+                "id": 1,
+                "language_name": "English"
+            }
+        ],
+        "bookEvent": [
+            {
+                "id": 1,
+                "name": "Book Launch",
+                "date": "2022-01-15T00:00:00Z",
+                "description": "Launch event for the new book"
+            }
+        ],
+        "series": {
+            "id": 1,
+            "name": "The Fiction Series",
+            "description": "A series of fictional books"
+        },
+        "name": "The Great Adventure",
+        "year": 2022,
+        "ISBN": "978-3-16-148410-0",
+        "page_count": 350,
+        "format": "Hardcover",
+        "edition": "First",
+        "publication_date": "2022-01-01T00:00:00Z",
+        "wieght": 1.5,
+        "author": [
+            {
+                "id": 1,
+                "first_name": "John",
+                "last_name": "Doe",
+                "nationality": "American",
+                "biography": "John Doe is a renowned author of fictional books.",
+                "website": "http://johndoe.com",
+                "birth_date": "1980-05-15T00:00:00Z"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "rating": true,
+                "text": "An amazing adventure!",
+                "date": "2022-01-10T00:00:00Z",
+                "user_id": {
+                    "id": 1,
+                    "first_name": "Alice",
+                    "last_name": "Smith",
+                    "birth_date": "1990-04-12",
+                    "gender": "Female",
+                    "age": "30",
+                    "email": "alice@example.com",
+                    "address": [
+                        {
+                            "id": 1,
+                            "state": "California",
+                            "country": "USA",
+                            "city": "Los Angeles",
+                            "postal_code": "90001",
+                            "street": "123 Main St"
+                        }
+                    ]
+                }
+            }
+        ],
+        "awards": [
+            {
+                "id": 1,
+                "name": "Best Fiction Award",
+                "year": 2022,
+                "organization": "Fiction Awards"
+            }
+        ]
+    },
+    {
+        "book_ID": "507f191e810c19729de860eb",
+        "genre": [
+            {
+                "id": 2,
+                "name": "Non-Fiction",
+                "description": "Non-fictional books"
+            }
+        ],
+        "publisher": {
+            "id": 2,
+            "name": "HarperCollins",
+            "founder": "James Harper",
+            "website": "http://harpercollins.com",
+            "address": [
+                {
+                    "id": 2,
+                    "state": "California",
+                    "country": "USA",
+                    "city": "San Francisco",
+                    "postal_code": "94111",
+                    "street": "195 Broadway"
+                }
+            ]
+        },
+        "language": [
+            {
+                "id": 2,
+                "language_name": "Spanish"
+            }
+        ],
+        "bookEvent": [
+            {
+                "id": 2,
+                "name": "Author Meet and Greet",
+                "date": "2023-02-20T00:00:00Z",
+                "description": "Meet the author and discuss the book"
+            }
+        ],
+        "series": {
+            "id": 2,
+            "name": "The Knowledge Series",
+            "description": "A series of non-fictional books"
+        },
+        "name": "The Science of Everything",
+        "year": 2023,
+        "ISBN": "978-1-23-456789-0",
+        "page_count": 450,
+        "format": "Paperback",
+        "edition": "Second",
+        "publication_date": "2023-02-01T00:00:00Z",
+        "wieght": 1.2,
+        "author": [
+            {
+                "id": 2,
+                "first_name": "Jane",
+                "last_name": "Smith",
+                "nationality": "British",
+                "biography": "Jane Smith is a celebrated author known for her non-fictional works.",
+                "website": "http://janesmith.com",
+                "birth_date": "1975-07-20T00:00:00Z"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 2,
+                "rating": false,
+                "text": "Informative but a bit dry.",
+                "date": "2023-02-15T00:00:00Z",
+                "user_id": {
+                    "id": 2,
+                    "first_name": "Bob",
+                    "last_name": "Johnson",
+                    "birth_date": "1985-06-23",
+                    "gender": "Male",
+                    "age": "35",
+                    "email": "bob@example.com",
+                    "address": [
+                        {
+                            "id": 2,
+                            "state": "Texas",
+                            "country": "USA",
+                            "city": "Houston",
+                            "postal_code": "77001",
+                            "street": "456 Elm St"
+                        }
+                    ]
+                }
+            }
+        ],
+        "awards": [
+            {
+                "id": 2,
+                "name": "Best Science Book",
+                "year": 2023,
+                "organization": "Science Awards"
+            }
+        ]
+    },
+    {
+        "book_ID": "507f191e810c19729de860ec",
+        "genre": [
+            {
+                "id": 3,
+                "name": "Mystery",
+                "description": "Mystery and thriller books"
+            }
+        ],
+        "publisher": {
+            "id": 3,
+            "name": "Simon & Schuster",
+            "founder": "Richard Simon",
+            "website": "http://simonandschuster.com",
+            "address": [
+                {
+                    "id": 3,
+                    "state": "New York",
+                    "country": "USA",
+                    "city": "New York",
+                    "postal_code": "10020",
+                    "street": "1230 Avenue of the Americas"
+                }
+            ]
+        },
+        "language": [
+            {
+                "id": 3,
+                "language_name": "French"
+            }
+        ],
+        "bookEvent": [
+            {
+                "id": 3,
+                "name": "Book Signing",
+                "date": "2021-11-10T00:00:00Z",
+                "description": "Book signing event"
+            }
+        ],
+        "series": {
+            "id": 3,
+            "name": "The Mystery Series",
+            "description": "A series of mystery and thriller books"
+        },
+        "name": "The Hidden Secrets",
+        "year": 2021,
+        "ISBN": "978-0-12-345678-9",
+        "page_count": 300,
+        "format": "Ebook",
+        "edition": "Third",
+        "publication_date": "2021-11-01T00:00:00Z",
+        "wieght": 0.8,
+        "author": [
+            {
+                "id": 3,
+                "first_name": "Emily",
+                "last_name": "Davis",
+                "nationality": "Canadian",
+                "biography": "Emily Davis is a bestselling author of mystery novels.",
+                "website": "http://emilydavis.com",
+                "birth_date": "1982-03-14T00:00:00Z"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 3,
+                "rating": true,
+                "text": "A thrilling mystery that keeps you on the edge of your seat.",
+                "date": "2021-11-05T00:00:00Z",
+                "user_id": {
+                    "id": 3,
+                    "first_name": "Carol",
+                    "last_name": "Taylor",
+                    "birth_date": "1992-08-30",
+                    "gender": "Female",
+                    "age": "29",
+                    "email": "carol@example.com",
+                    "address": [
+                        {
+                            "id": 3,
+                            "state": "Illinois",
+                            "country": "USA",
+                            "city": "Chicago",
+                            "postal_code": "60601",
+                            "street": "789 Maple Ave"
+                        }
+                    ]
+                }
+            }
+        ],
+        "awards": [
+            {
+                "id": 2,
+                "name": "Best Science Book",
+                "year": 2023,
+                "organization": "Science Awards"
+            }
+        ]
+    }
+]
